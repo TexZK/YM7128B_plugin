@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{32073ab9-dbf9-4986-8f77-71aadd587662}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\zita-resampler\libs\zita-resampler\cresampler.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\zita-resampler\libs\zita-resampler\resampler-table.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\zita-resampler\libs\zita-resampler\resampler.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\zita-resampler\libs\zita-resampler\vresampler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\ext\zita-resampler\libs\cresampler.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\ext\zita-resampler\libs\resampler-table.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\ext\zita-resampler\libs\resampler.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\ext\zita-resampler\libs\vresampler.cc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+[submodule "ext/zita-resampler"]
+	path = ext/zita-resampler
+	url = https://github.com/jpcima/zita-resampler.git
+[submodule "ext/r8brain-free-src"]
+	path = ext/r8brain-free-src
+	url = https://github.com/avaneev/r8brain-free-src.git
+[submodule "ext/libsamplerate"]
+	path = ext/libsamplerate
+	url = https://github.com/erikd/libsamplerate.git
+[submodule "ext/YM7128B_emu"]
+	path = ext/YM7128B_emu
+	url = https://github.com/TexZK/YM7128B_emu.git
+[submodule "ext/calfmoo"]
+	path = ext/calfmoo
+	url = https://github.com/TexZK/calfmoo.git
+[submodule "ext/ladspa_sdk"]
+	path = ext/ladspa_sdk
+	url = https://github.com/TexZK/ladspa_sdk.git

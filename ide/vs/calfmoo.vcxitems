@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\ext\calfmoo\src\midi.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\calfmoo\include\calfmoo\dsp-biquad.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\calfmoo\include\calfmoo\dsp-butterworth.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\calfmoo\include\calfmoo\dsp-onepole.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\calfmoo\include\calfmoo\dsp-resampler-libsamplerate.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\calfmoo\include\calfmoo\dsp-resampler-r8brain.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\calfmoo\include\calfmoo\dsp-resampler-zita.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\calfmoo\include\calfmoo\dsp-resampler.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\calfmoo\include\calfmoo\utils-ringbuffer.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\calfmoo\include\calfmoo\utils-rateslotter.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\calfmoo\include\calfmoo\ym7128b.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\calfmoo\include\calfmoo\midi.hpp" />
+  </ItemGroup>
+</Project>

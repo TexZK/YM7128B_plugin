@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calfmoo", "calfmoo.vcxitems", "{45D41ACC-2C3C-43D2-BC10-02AA73FFC7C7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VST2_SDK", "VST2_SDK.vcxitems", "{72BE478B-0F78-49C5-BF40-BC214ADC52A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YM7128B", "YM7128B\YM7128B.vcxproj", "{6998A3FC-59EE-4A76-A285-DC953F0BD5AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ladspa_sdk", "ladspa_sdk.vcxitems", "{BB00A387-063F-48A3-8B02-7770438CB90F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsamplerate", "libsamplerate.vcxitems", "{AC412D44-14C7-44D2-8E46-A86EE90D46EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zita", "zita.vcxitems", "{32073AB9-DBF9-4986-8F77-71AADD587662}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "r8brain", "r8brain.vcxitems", "{2CBB76F7-7026-48BA-B873-88329F12604D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YM7128B_emu", "YM7128B_emu.vcxitems", "{9512EE82-A33E-4971-B817-8707A5E1E968}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		r8brain.vcxitems*{2cbb76f7-7026-48ba-b873-88329f12604d}*SharedItemsImports = 9
+		zita.vcxitems*{32073ab9-dbf9-4986-8f77-71aadd587662}*SharedItemsImports = 9
+		calfmoo.vcxitems*{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}*SharedItemsImports = 9
+		calfmoo.vcxitems*{6998a3fc-59ee-4a76-a285-dc953f0bd5ad}*SharedItemsImports = 4
+		ladspa_sdk.vcxitems*{6998a3fc-59ee-4a76-a285-dc953f0bd5ad}*SharedItemsImports = 4
+		VST2_SDK.vcxitems*{6998a3fc-59ee-4a76-a285-dc953f0bd5ad}*SharedItemsImports = 4
+		YM7128B_emu.vcxitems*{6998a3fc-59ee-4a76-a285-dc953f0bd5ad}*SharedItemsImports = 4
+		zita.vcxitems*{6998a3fc-59ee-4a76-a285-dc953f0bd5ad}*SharedItemsImports = 4
+		VST2_SDK.vcxitems*{72be478b-0f78-49c5-bf40-bc214adc52a3}*SharedItemsImports = 9
+		YM7128B_emu.vcxitems*{9512ee82-a33e-4971-b817-8707a5e1e968}*SharedItemsImports = 9
+		libsamplerate.vcxitems*{ac412d44-14c7-44d2-8e46-a86ee90d46eb}*SharedItemsImports = 9
+		ladspa_sdk.vcxitems*{bb00a387-063f-48a3-8b02-7770438cb90f}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6998A3FC-59EE-4A76-A285-DC953F0BD5AD}.Debug|x64.ActiveCfg = Debug|x64
+		{6998A3FC-59EE-4A76-A285-DC953F0BD5AD}.Debug|x64.Build.0 = Debug|x64
+		{6998A3FC-59EE-4A76-A285-DC953F0BD5AD}.Debug|x86.ActiveCfg = Debug|Win32
+		{6998A3FC-59EE-4A76-A285-DC953F0BD5AD}.Debug|x86.Build.0 = Debug|Win32
+		{6998A3FC-59EE-4A76-A285-DC953F0BD5AD}.Release|x64.ActiveCfg = Release|x64
+		{6998A3FC-59EE-4A76-A285-DC953F0BD5AD}.Release|x64.Build.0 = Release|x64
+		{6998A3FC-59EE-4A76-A285-DC953F0BD5AD}.Release|x86.ActiveCfg = Release|Win32
+		{6998A3FC-59EE-4A76-A285-DC953F0BD5AD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5351CC78-8CA0-4F7E-90A9-FF08A28F1B3A}
+	EndGlobalSection
+EndGlobal

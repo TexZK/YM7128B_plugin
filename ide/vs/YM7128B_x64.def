@@ -1,0 +1,5 @@
+LIBRARY YM7128B_x64
+EXPORTS
+VSTPluginMain
+main=VSTPluginMain
+ladspa_descriptor

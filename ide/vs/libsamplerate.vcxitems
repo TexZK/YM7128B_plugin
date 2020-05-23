@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{ac412d44-14c7-44d2-8e46-a86ee90d46eb}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\libsamplerate-0.1.9\src\common.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\libsamplerate-0.1.9\src\config.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\libsamplerate-0.1.9\src\fastest_coeffs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\libsamplerate-0.1.9\src\float_cast.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\libsamplerate-0.1.9\src\high_qual_coeffs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\libsamplerate-0.1.9\src\mid_qual_coeffs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ext\libsamplerate-0.1.9\src\samplerate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\ext\libsamplerate-0.1.9\src\samplerate.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\ext\libsamplerate-0.1.9\src\src_linear.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\ext\libsamplerate-0.1.9\src\src_sinc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\ext\libsamplerate-0.1.9\src\src_zoh.c" />
+  </ItemGroup>
+</Project>
